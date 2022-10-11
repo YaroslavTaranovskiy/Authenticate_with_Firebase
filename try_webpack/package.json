@@ -1,0 +1,32 @@
+{
+  "name": "authenticate_with_firebase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YaroslavTaranovskiy/Authenticate_with_Firebase.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "webpack"
+  ],
+  "author": "Taranovskiy Yaroslav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YaroslavTaranovskiy/Authenticate_with_Firebase/issues"
+  },
+  "homepage": "https://github.com/YaroslavTaranovskiy/Authenticate_with_Firebase#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
